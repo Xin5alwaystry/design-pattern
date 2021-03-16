@@ -1,5 +1,8 @@
 package com.mitchell.strategy;
 
+import com.mitchell.strategy.behavior.FlyNoWay;
+import com.mitchell.strategy.behavior.Squeak;
+
 /**
  * @author xin5
  * @date 2021年03月13日 00:17:27

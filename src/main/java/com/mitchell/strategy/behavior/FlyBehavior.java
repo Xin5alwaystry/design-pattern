@@ -1,4 +1,4 @@
-package com.mitchell.strategy;
+package com.mitchell.strategy.behavior;
 
 /**
  * 飞行行为

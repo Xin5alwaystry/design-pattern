@@ -1,5 +1,8 @@
 package com.mitchell.strategy;
 
+import com.mitchell.strategy.behavior.FlyBehavior;
+import com.mitchell.strategy.behavior.QuackBehavior;
+
 /**
  * @author xin5
  * @date 2021年03月13日 00:05:01
