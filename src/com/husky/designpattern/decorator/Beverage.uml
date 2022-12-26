@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.husky.designpattern.decorator.Beverage</OriginalElement>
+  <nodes>
+    <node x="800.5" y="78.0">com.husky.designpattern.decorator.beverage.Decaf</node>
+    <node x="107.5" y="78.0">com.husky.designpattern.decorator.CondimentDecorator</node>
+    <node x="648.5" y="78.0">com.husky.designpattern.decorator.beverage.DarkRoast</node>
+    <node x="341.5" y="78.0">com.husky.designpattern.decorator.beverage.Espresso</node>
+    <node x="325.0" y="156.0">com.husky.designpattern.decorator.decorator.Whip</node>
+    <node x="123.0" y="156.0">com.husky.designpattern.decorator.decorator.Milk</node>
+    <node x="483.5" y="78.0">com.husky.designpattern.decorator.beverage.HouseBlend</node>
+    <node x="494.0" y="0.0">com.husky.designpattern.decorator.Beverage</node>
+    <node x="225.0" y="156.0">com.husky.designpattern.decorator.decorator.Soy</node>
+    <node x="0.0" y="156.0">com.husky.designpattern.decorator.decorator.Mocha</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.husky.designpattern.decorator.decorator.Milk" target="com.husky.designpattern.decorator.CondimentDecorator" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="164.0" y="131.0" />
+      <point x="214.5" y="131.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.husky.designpattern.decorator.decorator.Mocha" target="com.husky.designpattern.decorator.CondimentDecorator" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="51.5" y="131.0" />
+      <point x="214.5" y="131.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.husky.designpattern.decorator.beverage.HouseBlend" target="com.husky.designpattern.decorator.Beverage" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.husky.designpattern.decorator.CondimentDecorator" target="com.husky.designpattern.decorator.Beverage" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="214.5" y="53.0" />
+      <point x="556.0" y="53.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.husky.designpattern.decorator.beverage.Decaf" target="com.husky.designpattern.decorator.Beverage" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="849.0" y="53.0" />
+      <point x="556.0" y="53.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.husky.designpattern.decorator.decorator.Whip" target="com.husky.designpattern.decorator.CondimentDecorator" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="370.5" y="131.0" />
+      <point x="214.5" y="131.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.husky.designpattern.decorator.decorator.Soy" target="com.husky.designpattern.decorator.CondimentDecorator" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="265.0" y="131.0" />
+      <point x="214.5" y="131.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.husky.designpattern.decorator.beverage.DarkRoast" target="com.husky.designpattern.decorator.Beverage" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="714.5" y="53.0" />
+      <point x="556.0" y="53.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.husky.designpattern.decorator.beverage.Espresso" target="com.husky.designpattern.decorator.Beverage" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="402.5" y="53.0" />
+      <point x="556.0" y="53.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="449.0" y="92.0" />
+  <SelectedNodes>
+    <node>com.husky.designpattern.decorator.beverage.Decaf</node>
+    <node>com.husky.designpattern.decorator.CondimentDecorator</node>
+    <node>com.husky.designpattern.decorator.beverage.DarkRoast</node>
+    <node>com.husky.designpattern.decorator.beverage.Espresso</node>
+    <node>com.husky.designpattern.decorator.decorator.Whip</node>
+    <node>com.husky.designpattern.decorator.decorator.Milk</node>
+    <node>com.husky.designpattern.decorator.beverage.HouseBlend</node>
+    <node>com.husky.designpattern.decorator.Beverage</node>
+    <node>com.husky.designpattern.decorator.decorator.Soy</node>
+    <node>com.husky.designpattern.decorator.decorator.Mocha</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
