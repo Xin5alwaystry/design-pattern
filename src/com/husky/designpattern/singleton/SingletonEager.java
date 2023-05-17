@@ -2,22 +2,14 @@ package com.husky.designpattern.singleton;
 
 /**
  * @author xin5
- * @since 2023年01月04日 22:34:48
+ * @since 2023年01月04日 22:31:29
  */
 public class SingletonEager {
-    //此处使用volatile是为了禁止指令重排序，防止在多线程环境下，单例还没创建完成就被使用。
-    private volatile SingletonEager instance;
+    //JVM保证了instance创建过程的线程安全。
+    private static final SingletonEager instance = new SingletonEager();
 
-    public SingletonEager getInstance() {
-        //此处使用了双重检查加锁
-        //目的是提高性能，避免每次获取单例时都要上锁
-        if (instance == null) {
-            synchronized (SingletonEager.class) {
-                if (instance == null) {
-                    instance = new SingletonEager();
-                }
-            }
-        }
+    //单例模式必须有一个私有的构造器，这样就没有办法从外部创建该类的实例。
+    public static SingletonEager getInstance() {
         return instance;
     }
 

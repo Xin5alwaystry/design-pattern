@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.husky.designpattern.strategy.clean.Clean</OriginalElement>
+  <nodes>
+    <node x="287.0" y="90.5">com.husky.designpattern.strategy.clean.RobotClean</node>
+    <node x="449.0" y="90.5">com.husky.designpattern.strategy.clean.HomemakingClean</node>
+    <node x="0.0" y="78.0">com.husky.designpattern.strategy.Host</node>
+    <node x="34.40384615384619" y="0.0">com.husky.designpattern.strategy.clean.Clean</node>
+    <node x="142.0" y="90.5">com.husky.designpattern.strategy.clean.SelfClean</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.husky.designpattern.strategy.clean.SelfClean" target="com.husky.designpattern.strategy.clean.Clean" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="204.5" y="58.0" />
+      <point x="358.0" y="58.0" />
+      <point x="358.0" y="48.0" />
+      <point x="113.57051282051287" y="48.0" />
+      <point x="31.66666666666667" y="14.0" />
+    </edge>
+    <edge source="com.husky.designpattern.strategy.Host" target="com.husky.designpattern.strategy.clean.Clean" relationship="TO_ONE">
+      <point x="30.5" y="-26.5" />
+      <point x="91.5" y="58.0" />
+      <point x="81.90384615384619" y="58.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.husky.designpattern.strategy.clean.RobotClean" target="com.husky.designpattern.strategy.clean.Clean" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="358.0" y="48.0" />
+      <point x="113.57051282051287" y="48.0" />
+      <point x="31.66666666666667" y="14.0" />
+    </edge>
+    <edge source="com.husky.designpattern.strategy.clean.HomemakingClean" target="com.husky.designpattern.strategy.clean.Clean" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="547.5" y="58.0" />
+      <point x="358.0" y="58.0" />
+      <point x="358.0" y="48.0" />
+      <point x="113.57051282051287" y="48.0" />
+      <point x="31.66666666666667" y="14.0" />
+    </edge>
+    <edge source="com.husky.designpattern.strategy.Host" target="com.husky.designpattern.strategy.clean.Clean" relationship="DEPENDENCY">
+      <point x="-30.5" y="-26.5" />
+      <point x="30.5" y="58.0" />
+      <point x="50.23717948717953" y="58.0" />
+      <point x="-31.66666666666667" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="323.0" y="65.5" />
+  <SelectedNodes>
+    <node>com.husky.designpattern.strategy.Host</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
