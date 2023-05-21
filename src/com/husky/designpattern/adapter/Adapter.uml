@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.husky.designpattern.adapter.ChineseSwitchInterface</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">com.husky.designpattern.adapter.USASwitchInterface</node>
+    <node x="23.0" y="78.0">com.husky.designpattern.adapter.ChineseSwitchAdapter</node>
+    <node x="226.0" y="0.0">com.husky.designpattern.adapter.ChineseSwitchInterface</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.husky.designpattern.adapter.ChineseSwitchAdapter" target="com.husky.designpattern.adapter.USASwitchInterface" relationship="TO_ONE">
+      <point x="-80.0" y="-26.5" />
+      <point x="63.0" y="53.0" />
+      <point x="51.5" y="53.0" />
+      <point x="-51.5" y="14.0" />
+    </edge>
+    <edge source="com.husky.designpattern.adapter.ChineseSwitchAdapter" target="com.husky.designpattern.adapter.ChineseSwitchInterface" relationship="REALIZATION">
+      <point x="80.0" y="-26.5" />
+      <point x="223.0" y="53.0" />
+      <point x="344.0" y="53.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.husky.designpattern.adapter.ChineseSwitchAdapter" target="com.husky.designpattern.adapter.USASwitchInterface" relationship="DEPENDENCY">
+      <point x="0.0" y="-26.5" />
+      <point x="143.0" y="53.0" />
+      <point x="154.5" y="53.0" />
+      <point x="51.5" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="231.0" y="65.5" />
+  <SelectedNodes>
+    <node>com.husky.designpattern.adapter.ChineseSwitchInterface</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
